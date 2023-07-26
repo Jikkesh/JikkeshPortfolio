@@ -1,0 +1,272 @@
+body{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'REM', sans-serif;
+    background-color: white;
+    letter-spacing: 2px;
+}
+h2{
+    text-decoration: underline;
+}
+.logo{
+    float: left;
+    top:0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+}
+nav{
+    margin: auto;
+}
+nav ul{
+    list-style-type: none;
+    margin: 5px;
+    padding-bottom: 50px;
+    display: flex;
+    margin-right: 10px;
+    justify-content: right;
+    align-items: stretch;
+    padding-right: 0;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: x-large;
+    border-radius: 50px;
+    background-color: none;
+    transition: 0.5s;
+    background-color: none;
+    top:20px;
+}
+nav ul li a:hover{
+    color:crimson;
+}
+
+#video-background{
+    position:relative;
+    right: 0;
+    bottom:0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+.welcome{
+    font-size: 100px;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    padding: 100px;
+    color: black;
+}
+.onvideo{
+    font-size: 50px;
+    z-index: 1;
+    position: absolute;
+    top: 630px;
+    padding: 10px;
+    color: black;
+    text-shadow: 10px;
+    text-align: left;
+}
+
+.onvideo span{
+    font-size: 100px;
+    color:black;
+}
+#naruto{
+    height: 250px;
+    float: right;
+    border-radius: 100%;
+}
+.narutoDiv{
+    padding: 10px;
+}
+
+h2{
+    font-size: xxx-large;
+}
+p{
+    font-size: x-large;
+    font-weight: 600;
+    padding: 5px;
+    text-align: left;
+}
+
+span{
+    color:darkslateblue;
+    font-size: xxx-large;
+    font-weight:bolder
+}
+
+h2{
+    text-align: center;
+    text-decoration:none;
+    padding-bottom: 20px;
+}
+.developer{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.inblack{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    padding: 5px;
+}
+.beardguy{
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+.inblack-p{
+    color: white;
+    text-align: left;
+    font-size: x-large;
+    padding: 5px;
+    text-align: left;
+    
+}
+.b{
+    color: blue ;;
+    padding: 20px;
+    text-align: center;
+}
+.workatnight{
+    height: 300px;
+    width: 300px;
+    float: right;
+    top: 0;
+}
+
+.aboutme{
+    height: 100vh;
+}
+.aboutmeTxt{
+    padding: 5px;
+}
+.myself{
+    height: 400px;
+    width: 400px;
+    float: right;
+    padding: 5px;
+   
+}
+.aboutmeH3{
+    font-size: xx-large;
+    text-align: left;
+}
+
+.saymyname{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: xxx-large;
+}
+.aboutmeP{
+    font-size: x-large;
+    text-align: left;
+    padding: 5px;
+}
+.martin{
+    font-family: cursive;
+    font-size: large;
+    color: black;
+    text-align: center;
+}
+.aboutmeDiv{
+    width: 100%;
+    height: fit-content;
+    
+}
+.blackImg{
+    height: 100vh;
+    width: 100%;
+}
+.blackbg{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+.contactDiv{
+    height: 100vh;
+}
+.contact{
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+}
+.contactP{
+    padding: 5px;
+}
+.ContactMeH{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.thankyou{
+    padding: 10px;
+    text-align: center;
+}
+.socialicons{
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    
+    
+}
+.aicon{
+    padding: 20px;
+    
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    clear: both;
+
+}
+.footer{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:680px){
+    body{
+        background-color: white;
+    }
+}
