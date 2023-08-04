@@ -16,9 +16,8 @@
     </head>
     
     <body>
-        <header> </header>
-        <img class="logo" src="./Assets/logo.png" alt="logo">
         <nav>
+            <img class="logo" src="./Assets/logo.png" alt="logo">
             <ul>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#skills">Deskwork skill</a></li>
@@ -26,26 +25,29 @@
             <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <hr>
 
         <div class="video-container">  
+            <video autoplay loop muted plays-inline id="video-background">
+            <source src="./Assets/Manlookingus.mp4" type="video/mp4"></video>
+
+            <div class="containerVideo">
             <h1 class="welcome">Welcome to My Portfolio...!</h1><br>
             <h2 class="onvideo">I am <span>JIKKESH,</span></h2>
-            <video autoplay loop muted plays-inline id="video-background">
-                <source src="./Assets/Manlookingus.mp4" type="video/mp4">
+            </div>
             </video>
         </div>
         
         <br>
 
         <section id="portfolio"><br>
-            <h2 class="myportfolio">HELLO...,</h1><br>
+            
             <div class="narutoDiv">
+                <h2 class="myportfolio">HELLO...,</h1><br>
                 <video autoplay loop muted plays-inline id="naruto">
                     <source src="./Assets/Naruto GIF.mp4" type="video/mp4">
                 </video>
             
-                <p> A mern Stack Developer based in Tamil Nadu, who specializes in a Creative Front-End development. 
+                <p> A Full-Stack Developer based in Tamil Nadu, who specializes in a Creative Front-End development. 
                     I am dedicated to creating engaging and user-friendly web experiences by combining my skills in front-end technologies and 
                     back-end proficiency with Love of creation. My journey into the world of web development has been an exciting and fulfilling one, 
                     and I'm thrilled to share my portfolio with you.</p>
@@ -56,22 +58,18 @@
         <hr>
 
         <section id="skills">
-
-            <h2 class="skills">Deskwork skill</h2>
-    
+        <div class="skills">
+            <h3 class="inblack-h"> Web Developer and Desinger</h3>
             <div class="developer">
-                <br>
-                <h3 class="inblack"> Web Developer and Desinger</h3>   
                 <img class="beardguy" src="./Assets/beardguy.gif" alt="beardguy"/>
-                <p class="inblack-p"> <span class="b">Front-End Development:</span> HTML5, CSS3, JavaScript, ReactJS
-                 <br><span class="b">Back-End Development:</span> Node.js, Express.js</p>
-        
-                <img class="workatnight" src="./Assets/workatnight.gif" alt="workatnight">
-                <br><br><br>
-                <p class="inblack-p"><br><span class="b"><br>Desinging Tools:</span>
-                    
-                    Visual Studio Code , Adobe Photoshop , After effects.</p>
+                <p class="inblack-p"> I possesses a diverse skill set and is well-versed in various frameworks and technologies that are widely accessible and utilized across the web development community. </p>
             </div>
+
+            <div class="designer">
+                <img class="workatnight" src="./Assets/workatnight.gif" alt="workatnight">
+                <p class="inblack-p">By incorporating illustrations into my web designs, I bring a touch of creativity and originality that sets the project apart. Whether it's custom-made artwork, hand-drawn elements, or vector graphics, each illustration is carefully crafted to suit the specific theme and vibe of the website.</p>
+            </div>
+        </div>
        
         </section>
  
@@ -95,22 +93,18 @@
         </div>
         </section>
 
-        <br>
-
         <div class="blackbg">
         <img class="blackImg" src="./Assets/aboutme.gif"/>
         </div>
     
-        <hr>
     <section id="contact">
         <div class="contactDiv">
         <h2 class="contact">Let's Work Together</h2>
         <p class="contactP">I am always open to new collaborations and opportunities. If you find resonance with my work or have a project 
             in mind where we can collaborate, please feel free to reach out to me. Together, let's explore the boundless realm of creativity and make a difference through our shared passions.</p>
         <br>
-        <br>
           <p class="thankyou"> Thank you for visiting my portfolio, and I hope you enjoy the journey through my creative world!</p>
-            <br><h2 class="ContactMeH">Contact Me in:</h2>
+            <br><h2 class="ContactMeH">Contact Me</h2>
             <div class="socialicons">
             
                 <a class="aicon"  href="https://mail.google.com/mail/u/0/#inbox"> <img class="icon" src="./Assets/gmail.png" alt="gmail"></a> 
@@ -120,9 +114,10 @@
             </div>
         </div>
     </section>
-    <hr>
 
+    
     <footer>
+        <hr>
         <p class="footer"> ©2023 Jikkesh/Developer </p>
     </footer>
     </body>
