@@ -5,6 +5,7 @@ body{
     flex-direction: column;
     box-sizing: border-box;
     letter-spacing: 2px;
+    width: fit-content;
 }
 h2{
     text-decoration: underline;
@@ -17,7 +18,6 @@ h2{
 }
 nav{
     display: flex;
-    justify-content: right;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -128,6 +128,8 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    clear: both;
+    gap: 10vh;
 }
 .skills{
     display: flex;
@@ -150,6 +152,7 @@ section{
     padding: 5px;
 }
 .inblack-h{
+    padding-top: 5vh;
     font-size: xx-large;
     color:blue;
     text-align: center;
@@ -167,11 +170,15 @@ section{
     float: right;
     top: 0;
 }
+#Cover{
+    height: 80vh;
+    width: 50vw;
+}
 .aboutme{
     height: 100vh;
 }
 .aboutmeTxt{
-    padding: 5px;
+    padding: 10vh;
 }
 .myself{
     height: 400px;
@@ -211,12 +218,25 @@ section{
     height: 100vh;
     width: 100vw;
     justify-content: center;
+    padding-top: 10vh;
 }
 .blackImg{
     height: 80vh;
     width: 80vw;
 }
-
+#project{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 80vw;
+    align-self: center;
+    gap: 5vh;
+    padding-top: 10vh;
+}
+.row{
+    gap: 10px;
+ 
+}
 .contactDiv{
     height: 100vh;
     width: 80vw;
@@ -265,6 +285,7 @@ footer{
 
 }
 .footer{
+    font-size: smaller;
     text-align: center;
 }
 
